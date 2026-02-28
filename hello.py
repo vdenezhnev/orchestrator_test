@@ -14,5 +14,23 @@ def hello_world():
     return "Hello, World!"
 
 
+def print_numbers():
+    """Print numbers from 1 to 100.
+
+    Prints each number from 1 to 100 on a separate line.
+
+    Example:
+        >>> print_numbers()
+        1
+        2
+        3
+        ...
+        100
+    """
+    for i in range(1, 101):
+        print(i)
+
+
 if __name__ == "__main__":
     print(hello_world())
+    print_numbers()
